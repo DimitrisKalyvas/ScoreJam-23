@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 7cb4c2141cbc2c5459b7db872086b898
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2367690702898216662
+    second: EarthAnimation2Disc_0
+  - first:
+      213: 6911570018886949310
+    second: EarthAnimation2Disc_1
+  - first:
+      213: 3237676924325644331
+    second: EarthAnimation2Disc_2
+  - first:
+      213: -9170709480913056050
+    second: EarthAnimation2Disc_3
+  - first:
+      213: 1369535977468231450
+    second: EarthAnimation2Disc_4
+  - first:
+      213: 6988611360015306882
+    second: EarthAnimation2Disc_5
+  - first:
+      213: 5614975896336840488
+    second: EarthAnimation2Disc_6
+  - first:
+      213: -831563736893398910
+    second: EarthAnimation2Disc_7
+  - first:
+      213: -1349520915462152800
+    second: EarthAnimation2Disc_8
+  - first:
+      213: 7076181746849630928
+    second: EarthAnimation2Disc_9
+  - first:
+      213: -6003751595699764787
+    second: EarthAnimation2Disc_10
+  - first:
+      213: 1872197783772939026
+    second: EarthAnimation2Disc_11
+  - first:
+      213: 4603484769199136509
+    second: EarthAnimation2Disc_12
+  - first:
+      213: -7866110050609258136
+    second: EarthAnimation2Disc_13
+  - first:
+      213: -675299663242486953
+    second: EarthAnimation2Disc_14
+  - first:
+      213: -8037422631589966917
+    second: EarthAnimation2Disc_15
+  - first:
+      213: -5681790106813533283
+    second: EarthAnimation2Disc_16
+  - first:
+      213: 1131954601785605704
+    second: EarthAnimation2Disc_17
+  - first:
+      213: 1846106252599133160
+    second: EarthAnimation2Disc_18
+  - first:
+      213: 36489730306306840
+    second: EarthAnimation2Disc_19
+  - first:
+      213: 3727420569431632169
+    second: EarthAnimation2Disc_20
+  - first:
+      213: -2000919921334441909
+    second: EarthAnimation2Disc_21
+  - first:
+      213: -2239059698893389757
+    second: EarthAnimation2Disc_22
+  - first:
+      213: -7793603226798041471
+    second: EarthAnimation2Disc_23
+  - first:
+      213: 6300308729747088705
+    second: EarthAnimation2Disc_24
+  - first:
+      213: -8970486111692942773
+    second: EarthAnimation2Disc_25
+  - first:
+      213: 8292828248304946670
+    second: EarthAnimation2Disc_26
+  - first:
+      213: -1868253090234685108
+    second: EarthAnimation2Disc_27
+  - first:
+      213: -8960427670313544677
+    second: EarthAnimation2Disc_28
+  - first:
+      213: 5037451860411277412
+    second: EarthAnimation2Disc_29
+  - first:
+      213: 3131485728305696187
+    second: EarthAnimation2Disc_30
+  - first:
+      213: 8203434272962078019
+    second: EarthAnimation2Disc_31
+  - first:
+      213: -2466578130804827199
+    second: EarthAnimation2Disc_32
+  - first:
+      213: -6377939738769400226
+    second: EarthAnimation2Disc_33
+  - first:
+      213: 2879279320013342258
+    second: EarthAnimation2Disc_34
+  - first:
+      213: 2508959602038970299
+    second: EarthAnimation2Disc_35
+  - first:
+      213: -5635016925905023735
+    second: EarthAnimation2Disc_36
+  - first:
+      213: -4880747563657711759
+    second: EarthAnimation2Disc_37
+  - first:
+      213: -8095547364941991630
+    second: EarthAnimation2Disc_38
+  - first:
+      213: -2597238292998782421
+    second: EarthAnimation2Disc_39
+  - first:
+      213: -8282563777820979007
+    second: EarthAnimation2Disc_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de3e34562abbd020800000000000000
+      internalID: 2367690702898216662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb91ff72054daef50800000000000000
+      internalID: 6911570018886949310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28c8eb320a8eec20800000000000000
+      internalID: 3237676924325644331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ececedbc0581bb080800000000000000
+      internalID: -9170709480913056050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_4
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 6
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f7c1427b1910310800000000000000
+      internalID: 1369535977468231450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_5
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 6
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280d8f231098cf060800000000000000
+      internalID: 6988611360015306882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_6
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827b98b04d66ced40800000000000000
+      internalID: 5614975896336840488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_7
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2806f56ef21b574f0800000000000000
+      internalID: -831563736893398910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_8
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad1be0a0e9854de0800000000000000
+      internalID: -1349520915462152800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_9
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da431bbec5a33260800000000000000
+      internalID: 7076181746849630928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_10
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc181a2abb36eaca0800000000000000
+      internalID: -6003751595699764787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_11
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2134f0b07f16bf910800000000000000
+      internalID: 1872197783772939026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_12
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe190dd10dd2ef30800000000000000
+      internalID: 4603484769199136509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_13
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8612e4dd596f5d290800000000000000
+      internalID: -7866110050609258136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_14
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 6
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b9d7fb88ad0a6f0800000000000000
+      internalID: -675299663242486953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_15
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 6
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb056e53b6557090800000000000000
+      internalID: -8037422631589966917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_16
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 6
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93fc03500a3621b0800000000000000
+      internalID: -5681790106813533283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_17
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ebc4586b285bf00800000000000000
+      internalID: 1131954601785605704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_18
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e38ccb0bdfae9910800000000000000
+      internalID: 1846106252599133160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_19
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8137bd46733a18000800000000000000
+      internalID: 36489730306306840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_20
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929e47952457ab330800000000000000
+      internalID: 3727420569431632169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_21
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48abd0deed4b34e0800000000000000
+      internalID: -2000919921334441909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_22
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340019021134de0e0800000000000000
+      internalID: -2239059698893389757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_23
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1865d52582f87d390800000000000000
+      internalID: -7793603226798041471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_24
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 6
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1452ed3c8613f6750800000000000000
+      internalID: 6300308729747088705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_25
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 6
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4297f9b86e628380800000000000000
+      internalID: -8970486111692942773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_26
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 6
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed8a83ca5b061370800000000000000
+      internalID: 8292828248304946670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_27
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49290e76b1a216e0800000000000000
+      internalID: -1868253090234685108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_28
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14516b128a26a380800000000000000
+      internalID: -8960427670313544677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_29
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460e1f807cf98e540800000000000000
+      internalID: 5037451860411277412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_30
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdcdd6bda5457b20800000000000000
+      internalID: 3131485728305696187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_31
+      rect:
+        serializedVersion: 2
+        x: 3010
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3456b22f10478d170800000000000000
+      internalID: 8203434272962078019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_32
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb91ae2244f4cdd0800000000000000
+      internalID: -2466578130804827199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_33
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e5dcf69910d77a0800000000000000
+      internalID: -6377939738769400226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_34
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 6
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2360686594145f720800000000000000
+      internalID: 2879279320013342258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_35
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 6
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7965b077d91d220800000000000000
+      internalID: 2508959602038970299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_36
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 6
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d0e1426f56cc1b0800000000000000
+      internalID: -5635016925905023735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_37
+      rect:
+        serializedVersion: 2
+        x: 3593
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f24dd33f9144cb0800000000000000
+      internalID: -4880747563657711759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_38
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231784a4096d6af80800000000000000
+      internalID: -8095547364941991630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_39
+      rect:
+        serializedVersion: 2
+        x: 3787
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2204c48881c4fbd0800000000000000
+      internalID: -2597238292998782421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthAnimation2Disc_40
+      rect:
+        serializedVersion: 2
+        x: 3884
+        y: 6
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c09671802c6e0d80800000000000000
+      internalID: -8282563777820979007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
