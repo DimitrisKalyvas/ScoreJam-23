@@ -291,6 +291,14 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1760636200}
+    - target: {fileID: 1383849065299814302, guid: ae26780147297254bae181259a14b3ee, type: 3}
+      propertyPath: MaxAngle
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383849065299814302, guid: ae26780147297254bae181259a14b3ee, type: 3}
+      propertyPath: MinAngle
+      value: -270
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae26780147297254bae181259a14b3ee, type: 3}
 --- !u!1 &157484624 stripped
@@ -511,6 +519,14 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1760636200}
+    - target: {fileID: 1383849065299814302, guid: ae26780147297254bae181259a14b3ee, type: 3}
+      propertyPath: MaxAngle
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383849065299814302, guid: ae26780147297254bae181259a14b3ee, type: 3}
+      propertyPath: MinAngle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae26780147297254bae181259a14b3ee, type: 3}
 --- !u!1 &625093244
@@ -1556,5 +1572,13 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1760636200}
+    - target: {fileID: 1383849065299814302, guid: ae26780147297254bae181259a14b3ee, type: 3}
+      propertyPath: MaxAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383849065299814302, guid: ae26780147297254bae181259a14b3ee, type: 3}
+      propertyPath: MinAngle
+      value: -180
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae26780147297254bae181259a14b3ee, type: 3}

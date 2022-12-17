@@ -8,6 +8,7 @@ public class GunController : MonoBehaviour
     public Camera cam;
     Vector2 movement;
     Vector2 mousePos;
+    public float MinAngle,MaxAngle;
     
     public TotalGunController MasterScript;
 
@@ -32,7 +33,8 @@ public class GunController : MonoBehaviour
     {
         Vector2 lookDir = mousePos - rb.position;
         float angle = (Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg -90f);
-        if (angle >= -180 && angle <= 0)
+        Debug.Log(angle);
+        if (angle >= MinAngle && angle <= MaxAngle)
         {
             rb.rotation = angle;
         }
