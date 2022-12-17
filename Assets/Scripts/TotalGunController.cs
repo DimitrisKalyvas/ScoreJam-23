@@ -7,6 +7,7 @@ public class TotalGunController : MonoBehaviour
 
     public GameObject[] Turrets;
     public GunController BaseScript;
+    public Shooting ShootingScript;
     public Animator animator;
     int TurretSelector;
 
@@ -16,9 +17,10 @@ public class TotalGunController : MonoBehaviour
     {
         BaseScript = FindObjectOfType<GunController>();
         animator = FindObjectOfType<Animator>();
+        ShootingScript = FindObjectOfType<Shooting>();
         TurretSelector = 0;
 
-        for (int i = 0; i <4; i++)
+        for (int i = 0; i <3; i++)
         {
             Turrets[i].GetComponent<GunController>().enabled = false;
             Turrets[i].GetComponent<Animator>().enabled = false;
@@ -40,7 +42,7 @@ public class TotalGunController : MonoBehaviour
             EnableTurret(0);
             DisableTurret(1);
             DisableTurret(2);
-            DisableTurret(3);
+            
         }
         if (Input.GetKeyDown("2"))
         {
@@ -50,7 +52,7 @@ public class TotalGunController : MonoBehaviour
             EnableTurret(1);
             DisableTurret(0);
             DisableTurret(2);
-            DisableTurret(3);
+            
         }
         if (Input.GetKeyDown("3"))
         {
@@ -60,27 +62,20 @@ public class TotalGunController : MonoBehaviour
             EnableTurret(2);
             DisableTurret(0);
             DisableTurret(1);
-            DisableTurret(3);
+            
         }
-        if (Input.GetKeyDown("4"))
-        {
-            DeactivateTurret(TurretSelector);
-            TurretSelector = 3;
-            ActivateTurret(3);
-            EnableTurret(3);
-            DisableTurret(0);
-            DisableTurret(1);
-            DisableTurret(2);
-        }
+        
     }
 
     void EnableTurret(int TurretSelected)
     {
         Turrets[TurretSelected].GetComponent<GunController>().enabled = true;
+        Turrets[TurretSelected].GetComponent<Shooting>().enabled = true;
     }
     void DisableTurret(int TurretSelected)
     {
         Turrets[TurretSelected].GetComponent<GunController>().enabled = false;
+        Turrets[TurretSelected].GetComponent<Shooting>().enabled = false;
     }
 
     void ActivateTurret(int TurretSelected)
