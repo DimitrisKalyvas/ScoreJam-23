@@ -8,12 +8,12 @@ public class GunController : MonoBehaviour
     public Camera cam;
     Vector2 movement;
     Vector2 mousePos;
-    public float MinAngle,MaxAngle;
     GameObject[] points;
     public int Damage;
     public float firerate;
-    
-    
+    public GameObject[] TurretsArray;
+
+
     public TotalGunController MasterScript;
 
     void Start()

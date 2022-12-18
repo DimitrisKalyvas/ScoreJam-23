@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     public int hp = 10;
     public GunController BaseScript;
     public GameObject EnemyDeath;
+   
     public Health healthscript;
     public highscore scorescript;
     

@@ -10,22 +10,26 @@ public class TotalGunController : MonoBehaviour
     public Shooting ShootingScript;
     public Animator animator;
     int TurretSelector;
-    public bool TurretEnabled;
+    public bool done;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        
         BaseScript = FindObjectOfType<GunController>();
         animator = FindObjectOfType<Animator>();
         ShootingScript = FindObjectOfType<Shooting>();
         TurretSelector = 0;
+        done = false;
 
         for (int i = 0; i <3; i++)
         {
             Turrets[i].GetComponent<GunController>().enabled = false;
             Turrets[i].GetComponent<Animator>().enabled = false;
-            TurretEnabled = false;
+            Turrets[i].GetComponent<Shooting>().enabled = false;
+            
+            
         }
 
     }
@@ -70,7 +74,7 @@ public class TotalGunController : MonoBehaviour
             EnableTurret(2);
             DisableTurret(0);
             DisableTurret(1);
-           
+            
 
         }
         
@@ -78,10 +82,15 @@ public class TotalGunController : MonoBehaviour
 
     void EnableTurret(int TurretSelected)
     {
-        
+        Debug.Log("Turret getting activated" + TurretSelected);
         Turrets[TurretSelected].GetComponent<GunController>().enabled = true;
         Turrets[TurretSelected].GetComponent<Shooting>().enabled = true;
-        
+        if (done == false)
+        {
+            Turrets[TurretSelected].GetComponent<Shooting>().CanFire = true;
+            done = true;
+        }
+
     }
     void DisableTurret(int TurretSelected)
     {
@@ -91,6 +100,7 @@ public class TotalGunController : MonoBehaviour
 
     void ActivateTurret(int TurretSelected)
     {
+        
         Turrets[TurretSelected].GetComponent<Animator>().enabled = true;
         Turrets[TurretSelected].GetComponent<Animator>().SetBool("IsActive", true);
         FindObjectOfType<AudioManager>().Play("LaserActivate");

@@ -17,13 +17,15 @@ public class Health : MonoBehaviour
 
     public GameOverScreen gameover;
 
-    void Awake()
+    void Find()
     {
-        GameOverScreen = GameObject.Find("Backround");
+        //GameOverScreen = GameObject.Find("Backround");
+        //Debug.Log("work");
     }
 
     void Start()
     {
+        //Invoke("Find", 3f);
         Time.timeScale = 1;
         gameover = FindObjectOfType<GameOverScreen>();
         
@@ -60,6 +62,7 @@ public class Health : MonoBehaviour
         {
             
             FindObjectOfType<AudioManager>().Play("Alien_Laugh");
+            FindObjectOfType<AudioManager>().Play("GameOver");
             gameover.EnableGameOverMenu();
             Time.timeScale = 0;
         }

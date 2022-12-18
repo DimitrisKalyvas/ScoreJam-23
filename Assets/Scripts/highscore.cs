@@ -6,13 +6,14 @@ using TMPro;
 public class highscore : MonoBehaviour
 {
     public TextMeshProUGUI score;
+    public TextMeshProUGUI score2;
     public TextMeshProUGUI highScore;
     public int scorenum;
 
     void Start()
     {
         highScore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
-        
+        score2.text = scorenum.ToString();
         score.text = scorenum.ToString();
     }
 
@@ -38,6 +39,7 @@ public class highscore : MonoBehaviour
     {
         scorenum += 1;
         score.text = scorenum.ToString();
+        score2.text = scorenum.ToString();
         if (scorenum > PlayerPrefs.GetInt("HighScore", 0))
         {
             PlayerPrefs.SetInt("HighScore", scorenum);

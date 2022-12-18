@@ -11,47 +11,32 @@ public class Shooting : MonoBehaviour
     public bool CanFire;
     public bool done;
     public TotalGunController TGC;
+    
 
     void Start()
     {
         BaseScript = FindObjectOfType<GunController>();
         TGC = FindObjectOfType<TotalGunController>();
-        CanFire = false;
+        CanFire = true;
         done = false;
 
-    }
+        for (int i = 0; i < 3; i++)
+        {
+            
 
+        }
+
+    }
 
     void Update()
     {
 
-        if (done == false)
-        {
-            if (Input.GetKeyDown("1"))
-            {
-                CanFire = true;
-                done = true;
-                Debug.Log("bruh");
-            }
-            if (Input.GetKeyDown("2"))
-            {
-                CanFire = true;
-                done = true;
-                Debug.Log("bruh");
-            }
-            if (Input.GetKeyDown("3"))
-            {
-                CanFire = true;
-                done = true;
-                Debug.Log("bruh");
-            }
-        }
-
-
         if (Input.GetButtonDown("Fire1") && (CanFire))
         {
-            Shoot();
+          Shoot();
         }
+
+
     }
 
 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField]
-    private float spawnRadius = 1, time = 1.5f;
+    private float spawnRadius = 1, time = 3f;
     public GameObject[] enemies;
 
 
@@ -19,7 +19,15 @@ public class EnemySpawner : MonoBehaviour
         Vector2 spawnPos = GameObject.Find("EarthAnimation").transform.position;
         spawnPos += Random.insideUnitCircle.normalized * spawnRadius;
 
-        Instantiate(enemies[Random.Range(0, enemies.Length)], spawnPos, Quaternion.identity);
+        int random = Random.Range(0, 100);
+        if (random < 75)
+        {
+            Instantiate(enemies[0], spawnPos, Quaternion.identity);
+        }
+        else if(random > 75)
+        {
+            Instantiate(enemies[1], spawnPos, Quaternion.identity);
+        }
         yield return new WaitForSeconds(time);
         StartCoroutine(SpawnAnEnemy());
     }
