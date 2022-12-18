@@ -12,7 +12,7 @@ public class highscore : MonoBehaviour
     void Start()
     {
         highScore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
-        scorenum = 0;
+        
         score.text = scorenum.ToString();
     }
 
@@ -38,6 +38,11 @@ public class highscore : MonoBehaviour
     {
         scorenum += 1;
         score.text = scorenum.ToString();
+        if (scorenum > PlayerPrefs.GetInt("HighScore", 0))
+        {
+            PlayerPrefs.SetInt("HighScore", scorenum);
+            highScore.text = scorenum.ToString();
+        }
     }
 
   

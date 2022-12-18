@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour
     public void Update()
     {
         float dist = Vector3.Distance(target.position, transform.position);
-        transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed);
+        transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
     }
 
     
