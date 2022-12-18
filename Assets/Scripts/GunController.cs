@@ -10,6 +10,8 @@ public class GunController : MonoBehaviour
     Vector2 mousePos;
     public float MinAngle,MaxAngle;
     GameObject[] points;
+    public int Damage;
+    public float firerate;
     
     
     public TotalGunController MasterScript;
@@ -17,8 +19,8 @@ public class GunController : MonoBehaviour
     void Start()
     {
         MasterScript = FindObjectOfType<TotalGunController>();
-        
-        Debug.Log(gameObject.transform.rotation.z);
+        Damage = 5;
+        firerate = 1f; 
     }
 
 
@@ -36,9 +38,9 @@ public class GunController : MonoBehaviour
     {
         Vector2 lookDir = mousePos - rb.position;
         float angle = (Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg -90f);
-        Debug.Log(angle);
+        
          
-             rb.rotation = angle;
+         rb.rotation = angle;
         
 
         

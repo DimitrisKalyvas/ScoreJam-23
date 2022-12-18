@@ -82,12 +82,14 @@ public class TotalGunController : MonoBehaviour
     {
         Turrets[TurretSelected].GetComponent<Animator>().enabled = true;
         Turrets[TurretSelected].GetComponent<Animator>().SetBool("IsActive", true);
+        FindObjectOfType<AudioManager>().Play("LaserActivate");
         Turrets[TurretSelected].GetComponent<Animator>().SetBool("IsIdle", false);
     }
 
     void DeactivateTurret(int TurretSelected)
     {
         Turrets[TurretSelected].GetComponent<Animator>().SetBool("IsActive", false);
+       
         Turrets[TurretSelected].GetComponent<Animator>().SetBool("IsIdle", false);
         
     }

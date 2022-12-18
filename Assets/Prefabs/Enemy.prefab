@@ -134,3 +134,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   speed: 0.01
+  hp: 10
+  BaseScript: {fileID: 0}
+  EnemyDeath: {fileID: 4703856236643640761, guid: 70e69d18d22809546ae9b76103ee77bd, type: 3}

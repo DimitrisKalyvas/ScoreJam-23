@@ -1,15 +1,19 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine;
 using TMPro;
 
 public class highscore : MonoBehaviour
 {
     public TextMeshProUGUI score;
     public TextMeshProUGUI highScore;
+    public int scorenum;
 
     void Start()
     {
         highScore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
+        scorenum = 0;
+        score.text = scorenum.ToString();
     }
 
     public void GenerateNumber ()
@@ -29,4 +33,13 @@ public class highscore : MonoBehaviour
         PlayerPrefs.DeleteKey("HighScore");
         highScore.text = "0";
     }
+
+    public void AddToScore()
+    {
+        scorenum += 1;
+        score.text = scorenum.ToString();
+    }
+
+  
+
 }

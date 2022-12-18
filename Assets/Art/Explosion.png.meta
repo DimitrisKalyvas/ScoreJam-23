@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: d811b989efe2c854fb283dad4fe9f370
 TextureImporter:
   internalIDToNameTable:
@@ -24,11 +23,6 @@ TextureImporter:
   - first:
       213: -4796932125324312052
     second: Explosion_6
-=======
-guid: c0f306cb20a62f341a8465ada99b396c
-TextureImporter:
-  internalIDToNameTable: []
->>>>>>> origin/main
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -59,33 +53,21 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
     filterMode: 0
-=======
-    filterMode: 1
->>>>>>> origin/main
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> origin/main
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-  spritePixelsToUnits: 15
-=======
-  spritePixelsToUnits: 100
->>>>>>> origin/main
+  spritePixelsToUnits: 19
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,14 +82,13 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -121,9 +102,6 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
-=======
-    textureCompression: 1
->>>>>>> origin/main
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,16 +110,15 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: Explosion_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
+        y: 1
         width: 20
-        height: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,9 +137,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 20
-        y: 3
+        y: 1
         width: 20
-        height: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,9 +158,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 40
-        y: 3
+        y: 1
         width: 20
-        height: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,9 +179,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 60
-        y: 3
+        y: 1
         width: 20
-        height: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,9 +200,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 3
+        y: 1
         width: 20
-        height: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,9 +221,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 100
-        y: 3
+        y: 1
         width: 20
-        height: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,9 +242,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 120
-        y: 3
+        y: 1
         width: 20
-        height: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,9 +258,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-=======
-    sprites: []
->>>>>>> origin/main
     outline: []
     physicsShape: []
     bones: []
