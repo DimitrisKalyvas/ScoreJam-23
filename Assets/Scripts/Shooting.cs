@@ -8,17 +8,46 @@ public class Shooting : MonoBehaviour
     public GameObject bulletPrefab;
     public GunController BaseScript;
     public float bulletForce = 20f;
-    private bool CanFire;
+    public bool CanFire;
+    public bool done;
+    public TotalGunController TGC;
 
     void Start()
     {
         BaseScript = FindObjectOfType<GunController>();
-        CanFire = true;
+        TGC = FindObjectOfType<TotalGunController>();
+        CanFire = false;
+        done = false;
+
     }
 
 
     void Update()
     {
+
+        if (done == false)
+        {
+            if (Input.GetKeyDown("1"))
+            {
+                CanFire = true;
+                done = true;
+                Debug.Log("bruh");
+            }
+            if (Input.GetKeyDown("2"))
+            {
+                CanFire = true;
+                done = true;
+                Debug.Log("bruh");
+            }
+            if (Input.GetKeyDown("3"))
+            {
+                CanFire = true;
+                done = true;
+                Debug.Log("bruh");
+            }
+        }
+
+
         if (Input.GetButtonDown("Fire1") && (CanFire))
         {
             Shoot();
@@ -28,7 +57,7 @@ public class Shooting : MonoBehaviour
 
     void Shoot()
     {
-        //FindObjectOfType<AudioManager>().Play("Laser_Fire");
+        FindObjectOfType<AudioManager>().Play("Laser_Fire");
         CanFire = false;
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, transform.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();

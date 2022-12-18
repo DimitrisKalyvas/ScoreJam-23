@@ -36,6 +36,31 @@ public class Enemy : MonoBehaviour
             hp -= BaseScript.Damage;
             if(hp <= 0)
             {
+                int num = Random.Range(1, 6);
+                if (num == 1)
+                {
+                    FindObjectOfType<AudioManager>().Play("Alien_Death1");
+                }else if ( num == 2)
+                {
+                    FindObjectOfType<AudioManager>().Play("Alien_Death2");
+                }
+                else if (num == 3)
+                {
+                    FindObjectOfType<AudioManager>().Play("Alien_Death3");
+                }
+                else if (num == 4)
+                {
+                    FindObjectOfType<AudioManager>().Play("Alien_Death4");
+                }
+                else if (num == 5)
+                {
+                    FindObjectOfType<AudioManager>().Play("Alien_Death5");
+                }
+                else if (num == 6)
+                {
+                    FindObjectOfType<AudioManager>().Play("Alien_Death6");
+                }
+
                 GameObject effect = Instantiate(EnemyDeath, transform.position, Quaternion.identity);
                 Destroy(effect, 1.1f);
                 Destroy(gameObject);
@@ -43,6 +68,7 @@ public class Enemy : MonoBehaviour
             }
         }else if (collision.gameObject.CompareTag("Earth"))
         {
+            FindObjectOfType<AudioManager>().Play("EarthDamage");
             healthscript.TakeDamage(1);
             GameObject effect = Instantiate(EnemyDeath, transform.position, Quaternion.identity);
             Destroy(effect, 1.1f);

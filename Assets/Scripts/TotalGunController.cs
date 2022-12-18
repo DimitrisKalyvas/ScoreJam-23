@@ -10,6 +10,7 @@ public class TotalGunController : MonoBehaviour
     public Shooting ShootingScript;
     public Animator animator;
     int TurretSelector;
+    public bool TurretEnabled;
 
 
     // Start is called before the first frame update
@@ -24,10 +25,12 @@ public class TotalGunController : MonoBehaviour
         {
             Turrets[i].GetComponent<GunController>().enabled = false;
             Turrets[i].GetComponent<Animator>().enabled = false;
+            TurretEnabled = false;
         }
 
     }
 
+    
     // Update is called once per frame
     void Update()
     {
@@ -36,6 +39,7 @@ public class TotalGunController : MonoBehaviour
 
         if (Input.GetKeyDown("1"))
         {
+            
             DeactivateTurret(TurretSelector);
             TurretSelector = 0;
             ActivateTurret(0);
@@ -43,9 +47,11 @@ public class TotalGunController : MonoBehaviour
             DisableTurret(1);
             DisableTurret(2);
             
+
         }
         if (Input.GetKeyDown("2"))
         {
+            
             DeactivateTurret(TurretSelector);
             TurretSelector = 1;
             ActivateTurret(1);
@@ -53,24 +59,29 @@ public class TotalGunController : MonoBehaviour
             DisableTurret(0);
             DisableTurret(2);
             
+
         }
         if (Input.GetKeyDown("3"))
         {
+            
             DeactivateTurret(TurretSelector);
             TurretSelector = 2;
             ActivateTurret(2);
             EnableTurret(2);
             DisableTurret(0);
             DisableTurret(1);
-            
+           
+
         }
         
     }
 
     void EnableTurret(int TurretSelected)
     {
+        
         Turrets[TurretSelected].GetComponent<GunController>().enabled = true;
         Turrets[TurretSelected].GetComponent<Shooting>().enabled = true;
+        
     }
     void DisableTurret(int TurretSelected)
     {
