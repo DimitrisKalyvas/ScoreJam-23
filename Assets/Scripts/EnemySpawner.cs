@@ -5,9 +5,9 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField]
-    private float spawnRadius = 1, time = 3f;
+    private float spawnRadius = 1, time = 4f;
     public GameObject[] enemies;
-
+    private float timer = 0f;
 
     void Start()
     {
@@ -32,6 +32,17 @@ public class EnemySpawner : MonoBehaviour
         StartCoroutine(SpawnAnEnemy());
     }
 
+    void Update()
+    {
+        timer += Time.deltaTime;
+        
+        if (timer > 30)
+        {
+            time -= 0.5f;
+            timer = 0f;
+        }
+        Debug.Log(timer);
+    }
 
 
 
