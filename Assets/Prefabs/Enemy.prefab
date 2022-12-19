@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5963048533987881348}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,5 +137,6 @@ MonoBehaviour:
   hp: 10
   BaseScript: {fileID: 0}
   EnemyDeath: {fileID: 4703856236643640761, guid: 70e69d18d22809546ae9b76103ee77bd, type: 3}
+  point: 1
   healthscript: {fileID: 0}
   scorescript: {fileID: 0}

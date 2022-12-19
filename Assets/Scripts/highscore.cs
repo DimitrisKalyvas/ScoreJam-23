@@ -35,9 +35,9 @@ public class highscore : MonoBehaviour
         highScore.text = "0";
     }
 
-    public void AddToScore()
+    public void AddToScore(int point)
     {
-        scorenum += 1;
+        scorenum += point;
         score.text = scorenum.ToString();
         score2.text = scorenum.ToString();
         if (scorenum > PlayerPrefs.GetInt("HighScore", 0))

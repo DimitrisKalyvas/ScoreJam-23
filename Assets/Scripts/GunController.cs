@@ -12,17 +12,21 @@ public class GunController : MonoBehaviour
     public int Damage;
     public float firerate;
     public GameObject[] TurretsArray;
+    public GameObject ButtonDMG, ButtonFRT;
 
 
     public TotalGunController MasterScript;
 
     void Start()
     {
+        ButtonDMG = GameObject.Find("UpgradeDamage");
+        ButtonFRT = GameObject.Find("UpgradeFireRate");
         MasterScript = FindObjectOfType<TotalGunController>();
         Damage = 5;
         firerate = 1f; 
     }
 
+    
 
     void Update()
     {

@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     public int hp = 10;
     public GunController BaseScript;
     public GameObject EnemyDeath;
-   
+    public int point;
     public Health healthscript;
     public highscore scorescript;
     
@@ -65,7 +65,7 @@ public class Enemy : MonoBehaviour
                 GameObject effect = Instantiate(EnemyDeath, transform.position, Quaternion.identity);
                 Destroy(effect, 1.1f);
                 Destroy(gameObject);
-                scorescript.AddToScore();
+                scorescript.AddToScore(point);
             }
         }else if (collision.gameObject.CompareTag("Earth"))
         {

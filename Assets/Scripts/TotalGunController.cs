@@ -11,6 +11,7 @@ public class TotalGunController : MonoBehaviour
     public Animator animator;
     int TurretSelector;
     public bool done;
+   
 
 
     // Start is called before the first frame update
@@ -38,8 +39,10 @@ public class TotalGunController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-
+        Turrets[0].GetComponent<Shooting>().time += Time.deltaTime;
+        Turrets[1].GetComponent<Shooting>().time += Time.deltaTime;
+        Turrets[2].GetComponent<Shooting>().time += Time.deltaTime;
+        
 
         if (Input.GetKeyDown("1"))
         {
